@@ -1,0 +1,265 @@
+
+
+/* ===============================================================
+
+				MAIN CSS 
+ 
+=============================================================== */
+
+/* =================================
+	Base Styles 
+================================= */
+
+body {
+	display: flex;
+	flex-direction: column;
+	min-height: 100vh;
+}
+
+.main-footer {
+	text-align: center;
+	margin: 0 auto;
+}
+
+.t-border {
+	border-top: 2px solid orange
+}
+
+/* =================================
+	Home Styles 
+================================= */
+
+.container {
+	width: 90%;
+	margin: 0 auto;
+	flex-grow: 1;
+	text-align: center;
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	flex-basis: auto;
+}
+
+.banner {
+	color: black;
+	text-align: center;
+	padding: 25px 0;
+	margin: 25px 0;
+}
+
+.logo {
+	width: 125px;
+}
+
+.name {
+	margin-bottom: 0;
+	font-size: 3rem;
+	font-family: 'Megrim', cursive;
+}
+
+.link {
+	list-style: none;
+	align-self: auto;
+}
+
+.developer {
+	font-family: 'Miriam Libre', sans-serif;
+	font-size: 1.5rem;
+}
+
+.designer {
+	font-family: 'Bilbo Swash Caps', cursive;
+	font-size: 2.5rem;
+	letter-spacing: 2px;
+}
+
+
+/* =================================
+	Developer Styles 
+================================= */
+
+.main-nav {
+	width: 100%;
+	margin: 0 auto;
+	text-align: center;
+	display: flex;
+	flex-direction: column;
+	padding-top: 25px;
+	padding-bottom: 25px;
+}
+
+.wrap {
+	width: 90%;
+	margin: 0 auto;
+	flex-grow: 1;
+}
+
+.col {
+	flex-grow: 1;
+}
+
+.link-1 {
+	font-family: 'Bilbo Swash Caps', cursive;
+	font-size: 2.5rem;
+}
+
+.link-2 {
+	font-family: 'Miriam Libre', sans-serif;
+	font-size: 1.5rem;
+}
+
+.link-3, 
+.link-4 {
+	font-family: 'Megrim', cursive;
+}
+
+
+
+/* =================================
+	LINK STYLES
+================================= */
+
+a:link {
+	color: #000;
+	text-decoration: none;
+}
+
+a:visited {
+	color: #000;
+}
+
+a:hover {
+	color: orange;
+}
+
+a:active {
+	color: #000;
+}
+
+
+/* ===============================================================
+
+				MEDIA QUERIES 
+ 
+=============================================================== */
+
+
+/* =================================
+	600PX +
+================================= */
+
+@media (min-width: 600px) {
+	
+.logo {
+	width: 250px;
+  }	
+	
+}
+
+
+/* =================================
+	768PX +
+================================= */
+
+@media (min-width: 768px) {
+	
+.container {
+	display: flex;
+	flex-direction: row;
+	align-items: center;
+	justify-content: space-between;
+	width: 80%;
+	max-width: 1350px;
+  }
+
+
+.logo {
+	width: 300px;
+  }
+  
+a.glow,
+a.glow:hover, 
+a.glow:focus {
+	text-decoration: none;
+	color: black;
+	text-shadow: none;
+	-webkit-transition: 500ms linear 0s;
+	-moz-transition: 500ms linear 0s;
+	-o-transition: 500ms linear 0s;
+	transition: 500ms linear 0s;
+	outline: 0 none;
+  }
+
+a.glow:hover, 
+a.glow:focus  {
+	color: white;
+	text-shadow: -1px 1px 8px #10c1ea, 1px -1px 8px #10c1ea;
+  }
+  
+.main-nav {
+	display: flex;
+	flex-direction: row;
+	justify-content: space-between;
+	align-items: center;
+  }
+ 
+}
+
+
+/* =================================
+	1050PX +
+================================= */
+
+@Media (min-width: 1050px) {
+
+.designer {
+	font-size: 3.5rem;
+  }	
+
+.developer {
+	font-size: 2rem;
+  }
+  
+}
+
+/* =================================
+	1600PX +
+================================= */
+
+@Media (min-width: 1600px) {
+
+.designer {
+	font-size: 5rem;
+  }	
+
+.developer {
+	font-size: 3.5rem;
+  }
+  
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
